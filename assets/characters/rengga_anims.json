@@ -1,0 +1,78 @@
+{
+ "image": "rengga_sheet.png",
+ "frameWidth": 96,
+ "frameHeight": 194,
+ "origin": [
+  0.5,
+  1
+ ],
+ "facing": "front",
+ "anims": {
+  "idle": {
+   "start": 0,
+   "end": 3,
+   "frameRate": 4,
+   "repeat": -1
+  },
+  "walk": {
+   "start": 4,
+   "end": 7,
+   "frameRate": 6,
+   "repeat": -1
+  },
+  "run": {
+   "start": 8,
+   "end": 11,
+   "frameRate": 10,
+   "repeat": -1
+  },
+  "jump": {
+   "start": 12,
+   "end": 15,
+   "frameRate": 6,
+   "repeat": 0
+  },
+  "interact": {
+   "start": 16,
+   "end": 19,
+   "frameRate": 4,
+   "repeat": 0
+  },
+  "happy": {
+   "start": 20,
+   "end": 23,
+   "frameRate": 8,
+   "repeat": 0
+  },
+  "sad": {
+   "start": 24,
+   "end": 27,
+   "frameRate": 2,
+   "repeat": -1
+  },
+  "sit": {
+   "start": 28,
+   "end": 31,
+   "frameRate": 2,
+   "repeat": -1
+  },
+  "hug": {
+   "start": 32,
+   "end": 33,
+   "frameRate": 2,
+   "repeat": 0
+  },
+  "confused": {
+   "start": 36,
+   "end": 39,
+   "frameRate": 3,
+   "repeat": -1
+  },
+  "heartbroken": {
+   "start": 40,
+   "end": 43,
+   "frameRate": 2,
+   "repeat": -1
+  }
+ }
+}

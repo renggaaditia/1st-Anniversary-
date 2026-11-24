@@ -1,0 +1,71 @@
+// Daftar semua kenangan (Memory Album). icon = key texture; ikon dimuat di Boot.
+export const COLLECTIBLES = [
+  // Stage 1
+  { id: 's1_foto_pertama', stage: 1, name: 'Foto Pertama', date: 'Juli', icon: 's1_foto_pertama',
+    desc: 'Alasan sederhana untuk mulai bicara: minta foto di Tanjung.' },
+  { id: 's1_tiket_kapal', stage: 1, name: 'Tiket Kapal', date: 'Juli', icon: 's1_tiket_kapal',
+    desc: 'Tiket kapal menuju Kofiau, untuk program kampus.' },
+  { id: 's1_bintang_malam', stage: 1, name: 'Bintang Malam', date: 'Juli', icon: 's1_bintang_malam',
+    desc: 'Bintang di atas dek kapal, saksi obrolan sampai pagi.' },
+  { id: 's1_the_first_poem', stage: 1, name: 'The First Poem', date: 'Juli', icon: 's1_the_first_poem',
+    desc: 'Puisi pertama dari Rengga, lahir di bawah langit berbintang.' },
+  // Stage 2
+  { id: 's2_bouquet', stage: 2, name: 'Bouquet', icon: 's2_bouquet', date: 'First date',
+    desc: 'Bunga yang dipilih dengan hati-hati untuk kencan pertama.' },
+  { id: 's2_permission_letter', stage: 2, name: 'Formal Permission Letter', icon: 's2_permission_letter', date: 'First date',
+    desc: 'Surat izin untuk ibu Yulia, ditulis ulang tiga kali biar rapi.' },
+  { id: 's2_photobooth_strip', stage: 2, name: 'Photobooth Strip', icon: 's2_photobooth_strip', date: 'First date',
+    desc: 'Empat foto yang canggung. Tetap disimpan.' },
+  { id: 's2_uncertain_heart', stage: 2, name: 'Uncertain Heart', icon: 's2_uncertain_heart', date: 'First date',
+    desc: 'Hari itu Yulia mulai bimbang di antara masa lalu dan ketulusan Rengga.' },
+  // Stage 3
+  { id: 's3_third_attempt', stage: 3, name: 'Third Attempt', icon: 's3_third_attempt', date: '3 Desember 2025',
+    desc: 'Dua kali ditolak, tetap mencoba untuk ketiga kalinya.' },
+  { id: 's3_accepted_heart', stage: 3, name: 'Accepted Heart', icon: 's3_accepted_heart', date: '3 Desember 2025',
+    desc: 'Hari Yulia menjawab iya.' },
+  { id: 's3_promise', stage: 3, name: 'Promise', icon: 's3_promise', date: '3 Desember 2025',
+    desc: 'Janji untuk saling menjaga.' },
+  // Stage 4
+  { id: 's4_broken_heart', stage: 4, name: 'Broken Heart', icon: 's4_broken_heart',
+    desc: 'Photobooth yang sama, rasa yang sudah berbeda.' },
+  { id: 's4_unanswered_message', stage: 4, name: 'Unanswered Message', icon: 's4_unanswered_message',
+    desc: 'Pertanyaan Rengga yang dijawab dengan kejujuran yang menyakitkan.' },
+  { id: 's4_hidden_pain', stage: 4, name: 'Hidden Pain', icon: 's4_hidden_pain',
+    desc: 'Luka Rengga yang tidak pernah Yulia lihat.' },
+  // Stage 5
+  { id: 's5_first_message', stage: 5, name: 'First Message', icon: 's5_first_message',
+    desc: 'Pesan pertama setelah semuanya berakhir.' },
+  { id: 's5_buku_pulang', stage: 5, name: 'Pulang Book', icon: 's5_buku_pulang',
+    desc: 'Novel Pulang karya Leila S. Chudori. Alasan untuk bertemu lagi.' },
+  { id: 's5_second_chance', stage: 5, name: 'Second Chance', icon: 's5_second_chance',
+    desc: 'Pintu yang terbuka sedikit.' },
+  // Stage 6
+  { id: 's6_kerang', stage: 6, name: 'Familiar Shore', icon: 's6_kerang',
+    desc: 'Kerang dari pantai tempat semuanya dimulai.' },
+  { id: 's6_second_heart', stage: 6, name: 'Second Heart', icon: 's6_second_heart',
+    desc: 'Hati yang mau mencoba lagi, walau masih berat.' },
+  { id: 's6_surat_yulia', stage: 6, name: "Yulia's Letter", icon: 's6_surat_yulia',
+    desc: 'Surat yang Yulia tulis sendiri untuk Rengga.' },
+  // Stage 7
+  { id: 's7_tiket_bioskop', stage: 7, name: 'Movie Ticket', icon: 's7_tiket_bioskop',
+    desc: 'Dua kursi di tengah. Lebih sering lihat dia daripada filmnya.' },
+  { id: 's7_helm', stage: 7, name: 'Night Ride', icon: 's7_helm',
+    desc: 'Angin malam, lampu kota, dan pegangan yang erat.' },
+  { id: 's7_sate', stage: 7, name: 'Clean Plate', icon: 's7_sate',
+    desc: 'Sate yang tidak habis, selalu dia yang menghabiskan.' },
+  { id: 's7_ayunan', stage: 7, name: 'Swing Higher', icon: 's7_ayunan',
+    desc: 'Jadi anak kecil lagi, dia yang mendorong.' },
+  { id: 's7_jejak', stage: 7, name: 'Same Steps', icon: 's7_jejak',
+    desc: 'Langkahnya menyesuaikan langkahku.' },
+  { id: 's7_medali', stage: 7, name: 'Finish Line', icon: 's7_medali',
+    desc: 'Menang lomba lari. Hadiahnya es kelapa.' },
+  { id: 's7_bunga_taman', stage: 7, name: 'Flower Garden', icon: 's7_bunga_taman',
+    desc: 'Taman bunga di hari yang cerah.' },
+  // Stage 8
+  { id: 's8_foto_kita', stage: 8, name: 'Our Photos', icon: 's8_foto_kita', date: '3 Desember 2026',
+    desc: 'Foto-foto kita, dari kapal sampai hari ini.' },
+  { id: 's8_one_year', stage: 8, name: 'One Year', icon: 's8_one_year', date: '3 Desember 2026',
+    desc: 'Satu tahun bersama. Masih di sini.' },
+];
+
+export const byId = (id) => COLLECTIBLES.find((c) => c.id === id);
